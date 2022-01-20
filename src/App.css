@@ -1,5 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+ body{
+  height: 100%;
+  background-color: #c8d3d5;
+  background-image:  linear-gradient(#eaeaeaff 1px, transparent 1px), linear-gradient(to right, #eaeaeaff 1px, #c0d6dfff 1px);
+  background-size: 20px 20px;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #4f6d7aff;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .App-logo {
