@@ -4,14 +4,14 @@
  body{
   height: 100%;
   background-color: #c8d3d5;
-  background-image:  linear-gradient(#eaeaeaff 1px, transparent 1px), linear-gradient(to right, #eaeaeaff 1px, #c0d6dfff 1px);
+  background-image:  linear-gradient(#eaeaeaff 2px, transparent 2px), linear-gradient(to right, #eaeaeaff 2px, #d2e1d0 2px);
   background-size: 20px 20px;
   padding: 30px;
   font-family: 'Open Sans', sans-serif;
 }
 
 
-.App {
+.mainApp {
   text-align: center;
   display: flex;
   align-items: center;
@@ -19,9 +19,23 @@
 
   margin: 0 auto;
   max-width: 500px;
-  background-color: #4f6d7aff;
+  background-color: #fff;
   padding: 30px;
   border-radius: 10px;
+
+
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+
+  display: block;
+  position: relative;
+  padding: 40px 60px;
+
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0);
+
 }
 .giraffe{
   position: absolute;

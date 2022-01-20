@@ -1,14 +1,14 @@
 $burnt-sienna: #dd6e42ff;
 $dutch-white: #e8dab2ff;
 $cadet: #4f6d7aff;
-$columbia-blue: #c0d6dfff;
+$columbia-blue: #c0d6df;
 $platinum: #eaeaeaff;
 
 .form {
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    color: $platinum;
+    color: $cadet;
 
     h1 {
         margin-top: 0px;
@@ -30,7 +30,7 @@ $platinum: #eaeaeaff;
     }
 
     .add {
-        background: $columbia-blue;
+        background: $cadet;
         align-self: flex-end;
         margin-bottom: 30px;
 
@@ -60,11 +60,11 @@ $platinum: #eaeaeaff;
                 margin-bottom: 10px;
 
                 label {
-                    color: $platinum;
+                    color:  $cadet;
                 }
 
                 input {
-                    color: $platinum;
+                    color:  $cadet;
                 }
             }
 
@@ -82,7 +82,7 @@ $platinum: #eaeaeaff;
                     text-align: left;
 
                     div {
-                        color: $platinum;
+                        color: $cadet;
                     }
                 }
             }

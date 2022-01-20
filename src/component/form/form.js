@@ -86,7 +86,7 @@ const Form = () => {
     <div className="form">
       <h1> {message} </h1>
       {sent ? (
-        <div> {JSON.stringify(json)} </div>
+        <div> {JSON.stringify(json, null, 4)} </div>
       ) : (
         <form onSubmit={handleSubmit}>
           <div className='firstRow'>
