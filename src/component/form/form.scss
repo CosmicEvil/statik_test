@@ -4,123 +4,128 @@ $cadet: #4f6d7aff;
 $columbia-blue: #c0d6dfff;
 $platinum: #eaeaeaff;
 
-.form{
+.form {
     max-width: 500px;
-    display:flex;   
+    display: flex;
     flex-direction: column;
-    color:$platinum;
-    h1{
+    color: $platinum;
+
+    h1 {
         margin-top: 0px;
     }
-    label{
+
+    label {
         text-align: left;
     }
-    .button{
+
+    .button {
         max-width: 300px;
         border: 0;
         width: auto;
         padding: 10px 15px;
-
         border-radius: 10px;
         font-weight: bold;
         color: white;
-        
         transition: all 0.2s ease-in-out;
-
     }
-    .add{
+
+    .add {
         background: $columbia-blue;
         align-self: flex-end;
         margin-bottom: 30px;
-        &:hover{
-            background:$burnt-sienna;
+
+        &:hover {
+            background: $burnt-sienna;
         }
     }
-    .submit{
-         background: $burnt-sienna;
+
+    .submit {
+        background: $burnt-sienna;
         align-self: center;
- 
-        &:hover{
-            background:$columbia-blue;
+
+        &:hover {
+            background: $columbia-blue;
         }
 
-     }
+    }
 
-    form{
-        .firstRow{
+    form {
+        .firstRow {
             display: flex;
             justify-content: space-between;
             align-content: flex-end;
-            .MuiFormControl-root{
+
+            .MuiFormControl-root {
                 width: 200px;
                 margin-bottom: 10px;
-                label{
-                    color:$platinum;
-                   
+
+                label {
+                    color: $platinum;
                 }
-                input{
-                    color:$platinum;
+
+                input {
+                    color: $platinum;
                 }
             }
-         
-            .timeslot{
+
+            .timeslot {
                 display: flex;
                 flex-direction: column;
-                label{
+
+                label {
                     font-size: 11px;
                     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
                 }
+
                 .MuiInputBase-root {
                     width: 200px;
                     text-align: left;
-                    div{
-                        color:$platinum;
+
+                    div {
+                        color: $platinum;
                     }
-               }
+                }
             }
         }
+
         max-width: 500px;
-        display:flex;   
+        display:flex;
         flex-direction: column;
-       
+
+        .bezoeker_block {
+            color: $cadet;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            border: 1px solid;
+            margin: 5px;
+            background-color: $dutch-white;
+            padding: 15px;
+            position: relative;
+            border: 0px;
+            margin: 10px 0;
+
+            button {
+                color: $cadet;
+                position: absolute;
+                right: 6px;
+                top: 6px;
+                border: 0;
+                background-color: unset;
+            }
 
 
-   .bezoeker_block{
-    
-    color:$cadet;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: 1px solid;
-    margin: 5px;
-   background-color: $dutch-white;
-    padding: 15px;
-    position: relative;
-    border: 0px;
-    margin: 10px 0;
+            input {
+                border-radius: 3px;
+                border: 0px;
+                width: 100%;
+                margin-bottom: 10px;
+                margin-top: 5px;
 
-    button{
-        color:$cadet;
-        position: absolute;
-        right: 6px;
-        top: 6px;
-        border: 0;
-        background-color: unset;
-    }
-    label{
+            }
 
-    }
-    input{
-        border-radius: 3px;
-        border: 0px;
-        width: 100%;
-        margin-bottom: 10px;
-        margin-top: 5px;
-      
-    }
-
-    }
+        }
 
     }
 
